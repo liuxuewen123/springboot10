@@ -16,6 +16,8 @@ public class Score {
 	@Column(name="score")
 	private double   score;
 	
+	private int    number;
+	
 	public Integer getScid() {
 		return scid;
 	}
