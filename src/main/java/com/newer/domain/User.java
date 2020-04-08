@@ -15,6 +15,8 @@ public class User {
 	@Column(name="img")
 	private String img;
 	
+	private String sex;
+	
 	
 	public User() {
 		
@@ -51,6 +53,16 @@ public class User {
 	}
 	public void setUpwd(String upwd) {
 		this.upwd = upwd;
+	}
+
+
+	public String getSex() {
+		return sex;
+	}
+
+
+	public void setSex(String sex) {
+		this.sex = sex;
 	}
 	
 	
